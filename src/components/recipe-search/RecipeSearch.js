@@ -25,8 +25,8 @@ const RecipeSearch = () => {
 
     const searchQuery = `${keyword.trim()} ${ingredientsList.join(", ")}`;
 
-    const appId = process.env.REACT_APP_RECIPE_SEARCH_APP_ID;
-    const appKey = process.env.REACT_APP_RECIPE_SEARCH_APP_KEY;
+    const appId = "7898e02c";
+    const appKey = "854185341d0d9477636ecd26068c8245";
 
     const apiUrl = `https://api.edamam.com/api/recipes/v2?q=${searchQuery.trim()}&app_id=${appId}&app_key=${appKey}&type=public`;
 
