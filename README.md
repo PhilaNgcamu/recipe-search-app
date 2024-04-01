@@ -1,17 +1,9 @@
-# Instructions on how to start Recipe Search App:
+# Instructions on how to search recipes on the Recipe App
 
-1. Create a file named `.env` to store environment variables.
+1. Enter your desired food into the "Keywords" input field.
+2. Next, input the ingredients into the "Ingredients" field. Then, click on the "Search" button to view relevant recipes.
 
-2. Define the variables. Example show below:
+# Recipe App screenshots
 
-```
-REACT_APP_RECIPE_SEARCH_APP_ID=personal_api_id
-REACT_APP_RECIPE_SEARCH_APP_KEY=personal_api_key
-```
-
-3. Access variables in [searchRecipe.js](/src/state/thunk/searchRecipe.js). Example shown below:
-
-```
-const appId = process.env.REACT_APP_RECIPE_SEARCH_APP_ID;
-const appKey = process.env.REACT_APP_RECIPE_SEARCH_APP_KEY;
-```
+![Recipe App](/public/app_screenshots/recipe-app.png)
+![Pizzas](/public/app_screenshots/pizzas.png)
